@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F9Y613_Negyedik", "F9Y613_Negyedik\F9Y613_Negyedik.csproj", "{704024E1-2736-418C-9BF6-A8E7036AE6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masodik_Github", "Masodik_Github\Masodik_Github.csproj", "{335D9F6A-5FE0-4934-9660-2FE0C5B6F441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{704024E1-2736-418C-9BF6-A8E7036AE6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704024E1-2736-418C-9BF6-A8E7036AE6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704024E1-2736-418C-9BF6-A8E7036AE6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704024E1-2736-418C-9BF6-A8E7036AE6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335D9F6A-5FE0-4934-9660-2FE0C5B6F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335D9F6A-5FE0-4934-9660-2FE0C5B6F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335D9F6A-5FE0-4934-9660-2FE0C5B6F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335D9F6A-5FE0-4934-9660-2FE0C5B6F441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC80AA4C-5715-48EA-938C-20B5B2418FB2}
+	EndGlobalSection
+EndGlobal
