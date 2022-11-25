@@ -59,21 +59,7 @@ namespace UnitTestExample
     TestCase("irf@uni-corvinus.hu", "abcdABCD"),
     TestCase("irf@uni-corvinus.hu", "Ab1234"),
         ]
-        public void TestValidatePassword(string password, bool expectedResult)
-        {
-            var accountController = new AccountController();
-
-
-            try
-            {
-                var actualResult = accountController.Register(email, password);
-                Assert.Fail();
-            }
-            catch (Exception ex)
-            {
-                Assert.IsInstanceOf<ValidationException>(ex);
-            }
-        }
+        
         public void TestRegisterValidateException(string email, string password)
         {
            
