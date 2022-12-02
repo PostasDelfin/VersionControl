@@ -31,7 +31,7 @@ namespace week09
                 // Végigmegyünk az összes személyen
                 for (int i = 0; i < Population.Count; i++)
                 {
-                    
+                    SimStep(year, Population[i]);
                 }
 
                 int nbrOfMales = (from x in Population
@@ -77,7 +77,7 @@ namespace week09
                         Age = int.Parse(line[0]),
                         
                         NbrOfChildren = int.Parse(line[1]),
-                        BirthRate = int.Parse(line[2])
+                        BirthRate = double.Parse(line[2])
                     });
                 }
             }
@@ -96,7 +96,7 @@ namespace week09
                         Gender = (Gender)Enum.Parse(typeof(Gender), line[0]),
                         Age = int.Parse(line[1]),
                        
-                        DeathRate = int.Parse(line[2])
+                        DeathRate = double.Parse(line[2])
                         
                     });
                 }
