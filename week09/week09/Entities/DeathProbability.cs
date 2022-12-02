@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace week09.Entities
 {
-    public enum Gender
+    public class DeathProbability
     {
-        Male = 1,
-        Female = 2
+        public Gender Gender { get; set; }
+        public int Age { get; set; }
+
+        public double  DeathRate { get; set; }
     }
-    
 }
-
-
-
